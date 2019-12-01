@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Assignment-3, FOOD</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <style>
+            /** global styles**/
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background:grey;
+}
+p, p:hover{
+    text-decoration: none;
+}
+/**** Navbar Styles ****/
+.nav-brand{
+    border-radius: 0px;
+}
+#navbar {
+    background: darkgrey;
+    border: 0px;
+}
+.nav-brand h1{
+    margin-top: 0px;
+    font-size: 24px;
+    color: #fff;
+}
+#nav-list {
+    background: deepskyblue;
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #e4b9b9;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+ul li a {
+    color: #fff
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background: #fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus{
+    background: #000;
+}
+
+.navbar-default {
+    border: 0px;
+}
+/**** Main content ****/
+#first-row{
+    background: #00796B;
+    border-radius: 4px;
+    color: ;
+}
+#first-row > div{
+    background: pink;
+}
+#first-row > div > h3{
+    margin-bottom: 30px;
+}
+#first-row > div > .content{
+    font-size: 1.1em;
+}
+
+.back-link{
+    color: black;
+    font-size: 1.2em;
+}
+.back-link:hover{
+    color: #222;
+}
+.menu-item .content{
+    margin-bottom: 30px;
+    background: lightblue;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.link{
+    margin-bottom: 30px;
+}
+
+        </style>
+    </head>
+
+    <body>
+    <header>
+    <nav class="navbar navbar-default" id="navbar">
+      <div class="container">
+
+          <div class="navbar-header">
+            <p class="nav-brand" href="#"><h1>Assignment-3, FOOD</h1></p>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                  data-target="#collapsable-nav" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+<!--                    &lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;-->
+        <div class="collapse navbar-collapse" id="collapsable-nav">
+          <ul class="nav navbar-nav navbar-right visible-xs" id="nav-list">
+              <li class="text-center">
+                <a href="#chicken">
+                    <p class="item">Chicken</p>
+                </a>
+                <hr class="visible-xs">
+              </li>
+              <li class="text-center">
+                <a href="#beef">
+                    <p class="item">Beef</p>
+                </a>
+                <hr class="visible-xs">
+               </li>
+               <li class="text-center">
+                <a href="#sushi">
+                    <p class="item">Sushi</p>
+                </a>
+                <hr class="visible-xs">
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+            </header>
+
+            <!-- Main content goes here -->
+            <div class="container" id="main-content">
+                <h2 class="text-center" id="top">Our Menu</h2>
+
+                <section class="row" id="first-row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 menu-item" id="chicken">
+                        <h3 class="text-center">Chicken</h3>
+                        <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin commodo purus quis ex blandit iaculis. Vivamus quis nisi urna. Cras efficitur nisl eu dolor ullamcorper, sed laoreet massa dapibus. Curabitur pharetra urna non orci auctor blandit. Donec mollis velit erat, a elementum nisl venenatis a. Aenean vel nisi a est blandit scelerisque. Fusce finibus elementum ipsum et rutrum. Vestibulum dolor leo, dignissim ut turpis ut, dictum viverra metus. Pellentesque consequat tellus dui, sit amet eleifend odio vulputate in. Proin malesuada velit dui, sed placerat dui posuere in. Etiam interdum rhoncus leo sed viverra. Sed at malesuada odio, quis cursus ipsum. Maecenas mi mi, consectetur sed risus at, lobortis pellentesque risus.
+
+                        Praesent ac nisi egestas, tempus sem et, accumsan nisi. Praesent lectus justo, cursus non feugiat non, varius ut ex. Morbi id viverra sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi imperdiet eleifend odio a ornare. In euismod, turpis sit amet elementum semper, lorem ex interdum nulla, non sollicitudin dui orci vitae justo. Aenean lorem massa, rhoncus id fermentum dignissim, venenatis eget purus. Nulla sit amet condimentum dolor. Vivamus tincidunt nisi accumsan scelerisque aliquam. Proin dapibus, tortor eu posuere maximus, ipsum lacus placerat sapien, ut laoreet nunc tortor at augue. Cras maximus et lorem a faucibus. Nulla in scelerisque lectus. Mauris in justo sed libero viverra dictum.
+                        Praesent ac nisi egestas, tempus sem et, accumsan nisi. Praesent lectus justo, cursus non feugiat non, varius ut ex. Morbi id viverra sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi imperdiet eleifend odio a ornare. In euismod, turpis sit amet elementum semper, lorem ex interdum nulla, non sollicitudin dui orci vitae justo. Aenean lorem massa, rhoncus id fermentum dignissim, venenatis eget purus. Nulla sit amet condimentum dolor. Vivamus tincidunt nisi accumsan scelerisque aliquam. Proin dapibus, tortor eu posuere maximus, ipsum lacus placerat sapien, ut laoreet nunc tortor at augue. Cras maximus et lorem a faucibus. Nulla in scelerisque lectus. Mauris in justo sed libero viverra dictum.
+
+                    </div>
+
+                        <div class="text-center link">
+                            <a href="#top" class="back-link">Back to top</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-4 menu-item" id="beef">
+                        <h3 class="text-center">Beef</h3>
+                        <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin commodo purus quis ex blandit iaculis. Vivamus quis nisi urna. Cras efficitur nisl eu dolor ullamcorper, sed laoreet massa dapibus. Curabitur pharetra urna non orci auctor blandit. Donec mollis velit erat, a elementum nisl venenatis a. Aenean vel nisi a est blandit scelerisque. Fusce finibus elementum ipsum et rutrum. Vestibulum dolor leo, dignissim ut turpis ut, dictum viverra metus. Pellentesque consequat tellus dui, sit amet eleifend odio vulputate in. Proin malesuada velit dui, sed placerat dui posuere in. Etiam interdum rhoncus leo sed viverra. Sed at malesuada odio, quis cursus ipsum. Maecenas mi mi, consectetur sed risus at, lobortis pellentesque risus.
+
+                        Praesent ac nisi egestas, tempus sem et, accumsan nisi. Praesent lectus justo, cursus non feugiat non, varius ut ex. Morbi id viverra sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi imperdiet eleifend odio a ornare. In euismod, turpis sit amet elementum semper, lorem ex interdum nulla, non sollicitudin dui orci vitae justo. Aenean lorem massa, rhoncus id fermentum dignissim, venenatis eget purus. Nulla sit amet condimentum dolor. Vivamus tincidunt nisi accumsan scelerisque aliquam. Proin dapibus, tortor eu posuere maximus, ipsum lacus placerat sapien, ut laoreet nunc tortor at augue. Cras maximus et lorem a faucibus. Nulla in scelerisque lectus. Mauris in justo sed libero viverra dictum.
+
+                        Praesent ac nisi egestas, tempus sem et, accumsan nisi. Praesent lectus justo, cursus non feugiat non, varius ut ex. Morbi id viverra sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi imperdiet eleifend odio a ornare. In euismod, turpis sit amet elementum semper, lorem ex interdum nulla, non sollicitudin dui orci vitae justo. Aenean lorem massa, rhoncus id fermentum dignissim, venenatis eget purus. Nulla sit amet condimentum dolor. Vivamus tincidunt nisi accumsan scelerisque aliquam. Proin dapibus, tortor eu posuere maximus, ipsum lacus placerat sapien, ut laoreet nunc tortor at augue. Cras maximus et lorem a faucibus. Nulla in scelerisque lectus. Mauris in justo sed libero viverra dictum.
+                        </div>
+                        <div class="text-center link">
+                            <a href="#top" class="back-link">Back to top</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 menu-item" id="sushi">
+                        <h3 class="text-center">Sushi</h3>
+
+                        <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin commodo purus quis ex blandit iaculis. Vivamus quis nisi urna. Cras efficitur nisl eu dolor ullamcorper, sed laoreet massa dapibus. Curabitur pharetra urna non orci auctor blandit. Donec mollis velit erat, a elementum nisl venenatis a. Aenean vel nisi a est blandit scelerisque. Fusce finibus elementum ipsum et rutrum. Vestibulum dolor leo, dignissim ut turpis ut, dictum viverra metus. Pellentesque consequat tellus dui, sit amet eleifend odio vulputate in. Proin malesuada velit dui, sed placerat dui posuere in. Etiam interdum rhoncus leo sed viverra. Sed at malesuada odio, quis cursus ipsum. Maecenas mi mi, consectetur sed risus at, lobortis pellentesque risus.
+
+                        Praesent ac nisi egestas, tempus sem et, accumsan nisi. Praesent lectus justo, cursus non feugiat non, varius ut ex. Morbi id viverra sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi imperdiet eleifend odio a ornare. In euismod, turpis sit amet elementum semper, lorem ex interdum nulla, non sollicitudin dui orci vitae justo. Aenean lorem massa, rhoncus id fermentum dignissim, venenatis eget purus. Nulla sit amet condimentum dolor. Vivamus tincidunt nisi accumsan scelerisque aliquam. Proin dapibus, tortor eu posuere maximus, ipsum lacus placerat sapien, ut laoreet nunc tortor at augue. Cras maximus et lorem a faucibus. Nulla in scelerisque lectus. Mauris in justo sed libero viverra dictum.
+
+                        Praesent ac nisi egestas, tempus sem et, accumsan nisi. Praesent lectus justo, cursus non feugiat non, varius ut ex. Morbi id viverra sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi imperdiet eleifend odio a ornare. In euismod, turpis sit amet elementum semper, lorem ex interdum nulla, non sollicitudin dui orci vitae justo. Aenean lorem massa, rhoncus id fermentum dignissim, venenatis eget purus. Nulla sit amet condimentum dolor. Vivamus tincidunt nisi accumsan scelerisque aliquam. Proin dapibus, tortor eu posuere maximus, ipsum lacus placerat sapien, ut laoreet nunc tortor at augue. Cras maximus et lorem a faucibus. Nulla in scelerisque lectus. Mauris in justo sed libero viverra dictum.
+                    </div>
+
+                        <div class="text-center link">
+                            <a href="#top" class="back-link">Back to top</a>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+            <script src="js/jquery-2.1.4.min.js"></script
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/script.js"></script>
+            <script src="js/bootstrap.js"></script>
+    </body>
+</html>
